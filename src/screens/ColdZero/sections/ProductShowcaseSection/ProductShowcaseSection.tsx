@@ -216,7 +216,7 @@ export const ProductShowcaseSection = (): JSX.Element => {
                   這是如何運作的
                 </p>
                 <h2 className="self-stretch text-[#fbfdfd] text-[length:var(--display-md-semibold-font-size)] tracking-[var(--display-md-semibold-letter-spacing)] leading-[var(--display-md-semibold-line-height)] relative font-display-md-semibold font-[number:var(--display-md-semibold-font-weight)] [font-style:var(--display-md-semibold-font-style)]">
-                  電池部署，簡化版
+                  簡化部署流程
                 </h2>
               </div>
               <p className="relative self-stretch font-text-xl-regular font-[number:var(--text-xl-regular-font-weight)] text-[#b7d8cd] text-[length:var(--text-xl-regular-font-size)] tracking-[var(--text-xl-regular-letter-spacing)] leading-[var(--text-xl-regular-line-height)] [font-style:var(--text-xl-regular-font-style)]">
@@ -258,7 +258,7 @@ export const ProductShowcaseSection = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="w-[1440px] justify-center gap-16 px-0 py-24 bg-[#12211f] rounded-[0px_0px_24px_24px] overflow-hidden flex flex-col items-center relative flex-[0_0_auto]">
+      <div className="w-full justify-center gap-16 px-0 py-24 bg-[#12211f] rounded-[0px_0px_24px_24px] overflow-hidden flex flex-col items-center relative flex-[0_0_auto]">
         <div className="flex-wrap max-w-screen-xl items-start gap-[64px_64px] w-full flex-[0_0_auto] flex px-8 py-0 relative">
           <div className="flex flex-col min-w-[480px] max-w-screen-md items-start gap-5 relative flex-1 grow">
             <header className="self-stretch w-full flex-[0_0_auto] flex flex-col items-start gap-3 relative">

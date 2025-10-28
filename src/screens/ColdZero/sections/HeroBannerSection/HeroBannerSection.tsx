@@ -105,7 +105,7 @@ export const HeroBannerSection = (): JSX.Element => {
         </header>
       </div>
 
-      <div className="items-start pt-24 pb-0 px-0 self-stretch flex-[0_0_auto] z-0 flex flex-col w-full relative">
+      {/* <div className="items-start pt-24 pb-0 px-0 self-stretch flex-[0_0_auto] z-0 flex flex-col w-full relative">
         <div className="flex-col items-center self-stretch flex relative w-full flex-[0_0_auto]">
           <div className="flex-col max-w-screen-xl items-center gap-8 w-full flex-[0_0_auto] flex px-8 py-0 relative">
             <div className="flex flex-col items-start gap-12 relative self-stretch w-full flex-[0_0_auto]">
@@ -149,7 +149,52 @@ export const HeroBannerSection = (): JSX.Element => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+			 <main className="flex flex-col items-start pt-24 pb-0 px-0 relative self-stretch w-full flex-[0_0_auto] z-0">
+        <section className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex flex-col max-w-screen-xl items-center gap-8 px-8 py-0 relative w-full flex-[0_0_auto]">
+            <div className="flex flex-col items-start gap-12 relative self-stretch w-full flex-[0_0_auto]">
+              <div className="flex flex-col items-start justify-center gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <h1 className="relative mt-[-1.00px] font-display-lg-semibold font-[number:var(--display-lg-semibold-font-weight)] text-transparent text-[length:var(--display-lg-semibold-font-size)] tracking-[var(--display-lg-semibold-letter-spacing)] leading-[var(--display-lg-semibold-line-height)] [font-style:var(--display-lg-semibold-font-style)]">
+                  <span className="text-[#47cd89] tracking-[var(--display-lg-semibold-letter-spacing)] font-display-lg-semibold [font-style:var(--display-lg-semibold-font-style)] font-[number:var(--display-lg-semibold-font-weight)] leading-[var(--display-lg-semibold-line-height)] text-[length:var(--display-lg-semibold-font-size)]">
+                    Cold ZERO{" "}
+                  </span>
+
+                  <span className="text-[#f5f6f6] tracking-[var(--display-lg-semibold-letter-spacing)] font-display-lg-semibold [font-style:var(--display-lg-semibold-font-style)] font-[number:var(--display-lg-semibold-font-weight)] leading-[var(--display-lg-semibold-line-height)] text-[length:var(--display-lg-semibold-font-size)]">
+                    商用級儲能模組
+                  </span>
+                </h1>
+
+                <p className="relative w-fit font-text-xl-regular font-[number:var(--text-xl-regular-font-weight)] text-[#dbece6] text-[length:var(--text-xl-regular-font-size)] tracking-[var(--text-xl-regular-letter-spacing)] leading-[var(--text-xl-regular-line-height)] [font-style:var(--text-xl-regular-font-style)]">
+                  可擴展的 LFP 儲能系統，提供最高 60 kW 的峰值功率，採用 IP54
+                  等級機櫃，並與長庚國際能源 EMS 無縫整合。
+                </p>
+              </div>
+
+              <figure className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto] rounded-3xl overflow-hidden">
+                <div className="relative self-stretch w-full rounded-3xl aspect-[1.82] bg-[linear-gradient(180deg,rgba(48,85,78,1)_0%,rgba(38,59,55,1)_100%)]" />
+
+                <img
+                  className="top-0 w-[1216px] h-[360px] absolute left-0"
+                  alt="Cold Zero Energy Module"
+                  src="https://c.animaapp.com/U7V4C1eZ/img/zero-2.png"
+                />
+
+                <figcaption className="absolute top-[600px] right-[35px] w-[608px] font-text-sm-medium font-[number:var(--text-sm-medium-font-weight)] text-[#8bbdaf] text-[length:var(--text-sm-medium-font-size)] text-right tracking-[var(--text-sm-medium-letter-spacing)] leading-[var(--text-sm-medium-line-height)] [font-style:var(--text-sm-medium-font-style)]">
+                  採用防火 LFP 電池和多層保護設計。經 UL9540A
+                  認證，涵蓋電池、模組和系統層級。
+                </figcaption>
+
+                <img
+                  className="absolute top-[90px] left-0 w-[725px] h-[577px]"
+                  alt="Cold Zero Energy Module Detail"
+                  src="https://c.animaapp.com/U7V4C1eZ/img/zero-3@3x.png"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+      </main>
     </section>
   );
 };

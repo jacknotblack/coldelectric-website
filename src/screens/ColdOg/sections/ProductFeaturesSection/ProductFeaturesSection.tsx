@@ -321,7 +321,7 @@ export const ProductFeaturesSection = (): JSX.Element => {
           {productImages.map((image, index) => (
             <img
               key={index}
-              className={`relative flex-1 grow aspect-[1] ${index > 0 ? "object-cover" : ""}`}
+              className="relative flex-1 grow aspect-[1] object-cover"
               alt=""
               src={image}
             />

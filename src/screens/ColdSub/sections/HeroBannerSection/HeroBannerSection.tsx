@@ -112,7 +112,7 @@ export const HeroBannerSection = (): JSX.Element => {
         </header>
       </div>
 
-      <div className="items-start pt-24 pb-0 px-0 self-stretch flex-[0_0_auto] z-0 flex flex-col w-full relative">
+      {/* <div className="items-start pt-24 pb-0 px-0 self-stretch flex-[0_0_auto] z-0 flex flex-col w-full relative">
         <div className="flex-col items-center self-stretch flex relative w-full flex-[0_0_auto]">
           <div className="flex-col max-w-screen-xl items-center gap-8 w-full flex-[0_0_auto] flex px-8 py-0 relative">
             <div className="flex flex-col items-start gap-12 relative self-stretch w-full flex-[0_0_auto]">
@@ -135,7 +135,37 @@ export const HeroBannerSection = (): JSX.Element => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+			<main className="flex flex-col items-start pt-24 pb-0 px-0 relative self-stretch w-full flex-[0_0_auto] z-0">
+        <section className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex flex-col max-w-screen-xl items-center gap-8 px-8 py-0 relative w-full flex-[0_0_auto]">
+            <article className="flex flex-col items-start gap-12 relative self-stretch w-full flex-[0_0_auto]">
+              <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <h1 className="flex items-center relative self-stretch w-full flex-[0_0_auto]">
+                  <span className="relative w-fit mt-[-1.00px] [font-family:'Manrope-SemiBold',Helvetica] font-semibold text-[#47cd89] text-5xl tracking-[-0.96px] leading-[normal]">
+                    Cold SUB
+                  </span>
+
+                  <span className="relative w-fit font-display-lg-semibold font-[number:var(--display-lg-semibold-font-weight)] text-[#fbfdfd] text-[length:var(--display-lg-semibold-font-size)] tracking-[var(--display-lg-semibold-letter-spacing)] leading-[var(--display-lg-semibold-line-height)] whitespace-nowrap [font-style:var(--display-lg-semibold-font-style)]">
+                    全規模模組化儲能
+                  </span>
+                </h1>
+
+                <p className="relative w-[768px] font-text-xl-regular font-[number:var(--text-xl-regular-font-weight)] text-[#dbece6] text-[length:var(--text-xl-regular-font-size)] tracking-[var(--text-xl-regular-letter-spacing)] leading-[var(--text-xl-regular-line-height)] [font-style:var(--text-xl-regular-font-style)]">
+                  其模組化 LFP
+                  架構，為家用及小型商業客戶提供可擴展且高效的儲能，實現無縫電力備援、削峰填谷與智慧電網互動。
+                </p>
+              </div>
+
+              <img
+                className="relative self-stretch w-full flex-[0_0_auto]"
+                alt="Image"
+                src="https://c.animaapp.com/U7V4C1eZ/img/image-3@2x.png"
+              />
+            </article>
+          </div>
+        </section>
+      </main>
     </section>
   );
 };

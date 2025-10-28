@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductFeaturesSection } from "../Home/sections/ProductFeaturesSection";
+import { ProductFeaturesSection } from "./sections/ProductFeaturesSection";
 import { HeroBannerSection } from "./sections/HeroBannerSection";
 import { MainFooterSection } from "./sections/MainFooterSection";
 import { ProductShowcaseSection } from "./sections/ProductShowcaseSection";
