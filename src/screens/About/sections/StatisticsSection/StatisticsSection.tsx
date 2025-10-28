@@ -71,7 +71,7 @@ const tableData: TableRow[] = [
 
 export const StatisticsSection = (): JSX.Element => {
   return (
-    <section className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto] z-[2] rounded-[24px_24px_0px_0px] overflow-hidden">
+    <section className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto] z-[2] overflow-hidden bg-[#12211f]">
       <div className="flex-col items-center gap-32 px-0 py-32 flex relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-wrap max-w-screen-xl items-start gap-[96px_96px] px-8 py-0 relative w-full flex-[0_0_auto]">
           <div className="flex items-start gap-5 flex-1 grow flex-col relative">

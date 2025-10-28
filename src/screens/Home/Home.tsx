@@ -1,5 +1,5 @@
 import React from "react";
-import { SiteFooterSection } from "../ColdSub/sections/SiteFooterSection";
+import { SiteFooterSection } from "./sections/SiteFooterSection";
 import { HeroBannerSection } from "./sections/HeroBannerSection";
 import { MainContentSection } from "./sections/MainContentSection";
 import { MainContentWrapperSection } from "./sections/MainContentWrapperSection";

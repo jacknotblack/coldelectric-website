@@ -9,6 +9,7 @@ import { ColdZero } from "./screens/ColdZero";
 import { ColdOg } from "./screens/ColdOg";
 import { ColdOgTwo } from "./screens/ColdOgTwo";
 import { MicroGrid } from "./screens/MicroGrid";
+import { FeaturesSection } from "./routes/FeaturesSection/screens/FeaturesSection"; // Import the new screen
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/microgrid",
     element: <MicroGrid />,
+  },
+  {
+    path: "/features", // New route for FeaturesSection
+    element: <FeaturesSection />,
   },
 ]);
 

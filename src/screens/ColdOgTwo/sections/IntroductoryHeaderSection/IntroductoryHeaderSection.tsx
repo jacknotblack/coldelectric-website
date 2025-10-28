@@ -108,7 +108,7 @@ export const IntroductoryHeaderSection = (): JSX.Element => {
         </header>
       </div>
 
-      <div className="items-start pt-24 pb-0 px-0 self-stretch flex-[0_0_auto] z-0 flex flex-col w-full relative">
+      {/* <div className="items-start pt-24 pb-0 px-0 self-stretch flex-[0_0_auto] z-0 flex flex-col w-full relative">
         <div className="flex-col items-center self-stretch flex relative w-full flex-[0_0_auto]">
           <div className="flex-col max-w-screen-xl items-center gap-8 w-full flex-[0_0_auto] flex px-8 py-0 relative">
             <div className="flex flex-col items-start gap-12 relative self-stretch w-full flex-[0_0_auto]">
@@ -136,7 +136,37 @@ export const IntroductoryHeaderSection = (): JSX.Element => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+			<main className="flex flex-col items-start pt-24 pb-0 px-0 relative self-stretch w-full flex-[0_0_auto] z-0">
+        <section className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
+          <div className="flex flex-col max-w-screen-xl items-center gap-8 px-8 py-0 relative w-full flex-[0_0_auto]">
+            <article className="flex flex-col items-start gap-12 relative self-stretch w-full flex-[0_0_auto]">
+              <div className="flex flex-col items-start justify-center gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <h1 className="relative mt-[-1.00px] font-display-lg-semibold font-[number:var(--display-lg-semibold-font-weight)] text-transparent text-[length:var(--display-lg-semibold-font-size)] tracking-[var(--display-lg-semibold-letter-spacing)] leading-[var(--display-lg-semibold-line-height)] [font-style:var(--display-lg-semibold-font-style)]">
+                  <span className="text-[#47cd89] tracking-[var(--display-lg-semibold-letter-spacing)] font-display-lg-semibold [font-style:var(--display-lg-semibold-font-style)] font-[number:var(--display-lg-semibold-font-weight)] leading-[var(--display-lg-semibold-line-height)] text-[length:var(--display-lg-semibold-font-size)]">
+                    Cold OG2{" "}
+                  </span>
+
+                  <span className="text-[#f5f6f6] tracking-[var(--display-lg-semibold-letter-spacing)] font-display-lg-semibold [font-style:var(--display-lg-semibold-font-style)] font-[number:var(--display-lg-semibold-font-weight)] leading-[var(--display-lg-semibold-line-height)] text-[length:var(--display-lg-semibold-font-size)]">
+                    高容量能源模組
+                  </span>
+                </h1>
+
+                <p className="relative w-[768px] font-text-xl-regular font-[number:var(--text-xl-regular-font-weight)] text-[#dbece6] text-[length:var(--text-xl-regular-font-size)] tracking-[var(--text-xl-regular-letter-spacing)] leading-[var(--text-xl-regular-line-height)] [font-style:var(--text-xl-regular-font-style)]">
+                  單機櫃 420 kWh 解決方案，可用容量 380 kWh，200 kW
+                  峰值輸出功率，採 IP65 防護等級機櫃，往返效率達 94%。
+                </p>
+              </div>
+
+              <img
+                className="relative self-stretch w-full flex-[0_0_auto]"
+                alt="Cold OG2 高容量能源模組產品圖"
+                src="https://c.animaapp.com/U7V4C1eZ/img/image.png"
+              />
+            </article>
+          </div>
+        </section>
+      </main>
     </section>
   );
 };

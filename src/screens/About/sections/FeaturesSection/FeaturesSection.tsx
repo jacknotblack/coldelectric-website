@@ -26,7 +26,7 @@ const featuresData: FeatureCardData[] = [
 
 export const FeaturesSection = (): JSX.Element => {
   return (
-    <section className="flex-col items-center gap-16 pt-0 pb-16 px-0 self-stretch w-full flex-[0_0_auto] z-[4] flex relative">
+    <section className="flex-col items-center gap-16 pt-0 pb-16 px-0 self-stretch w-full flex-[0_0_auto] z-[4] flex relative bg-[#12211f]">
       <img
         className="relative self-stretch w-full h-[896px] object-cover"
         alt="Product manufacturing facility showcasing energy solutions"

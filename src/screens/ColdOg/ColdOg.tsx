@@ -1,6 +1,6 @@
 import React from "react";
-import { HeroBannerSection } from "../Home/sections/HeroBannerSection";
-import { ProductFeaturesSection } from "../Home/sections/ProductFeaturesSection";
+import { HeroBannerSection } from "./sections/HeroBannerSection";
+import { ProductFeaturesSection } from "./sections/ProductFeaturesSection";
 import { MainFooterSection } from "./sections/MainFooterSection";
 import { ProductShowcaseSection } from "./sections/ProductShowcaseSection";
 
