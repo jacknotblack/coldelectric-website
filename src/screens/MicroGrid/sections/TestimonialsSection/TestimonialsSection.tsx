@@ -124,9 +124,9 @@ export const TestimonialsSection = (): JSX.Element => {
       <div className="flex-col items-center -mt-24 flex relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex-col items-start flex max-w-screen-xl px-8 py-0 relative w-full flex-[0_0_auto]">
           <figure className="relative self-stretch w-full h-[560px]">
-            <div className="relative -top-2 left-[calc(50.00%_-_616px)] w-[1232px] h-[826px] flex items-center rounded-3xl border-8 border-solid border-[#12151b]">
+            <div className="relative -top-2 left-[calc(50.00%_-_616px)] w-[1232px] h-[560px] flex items-center rounded-3xl border-8 border-solid border-[#12151b]">
               <img
-                className="mt-[-266px] h-[560px] mr-4 flex-1 aspect-[1.5] object-cover"
+                className="h-[560px] flex-1 aspect-[1.5] object-cover"
                 alt="Virtual power plant dashboard mockup showing energy trading interface"
                 src="https://c.animaapp.com/U7V4C1eZ/img/screen-mockup--replace-fill-.png"
               />

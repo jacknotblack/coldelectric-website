@@ -18,7 +18,7 @@ export const MicroGrid = (): JSX.Element => {
       <FeaturesOverviewSection />
       <BenefitsSection />
       <TestimonialsSection />
-      <PerformanceMetricsSection />
+      {/* <PerformanceMetricsSection /> */}
       <MeshGradientSection />
       <MainFooterSection />
     </main>

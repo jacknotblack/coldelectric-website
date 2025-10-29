@@ -114,8 +114,8 @@ module.exports = {
           "var(--avatar-user-squarejackson-reed-color-background)",
         "avatar-user-squarejay-shepard-color-background":
           "var(--avatar-user-squarejay-shepard-color-background)",
-        "avatar-user-squarejaya-willis-color-background":
-          "var(--avatar-user-squarejaya-willis-color-background)",
+        "avatar-user-jaya-willis-color-background":
+          "var(--avatar-user-jaya-willis-color-background)",
         "avatar-user-squarejayden-moss-color-background":
           "var(--avatar-user-squarejayden-moss-color-background)",
         "avatar-user-squarejessie-meyton-color-background":
@@ -257,6 +257,23 @@ module.exports = {
         "avatar-user-squarezuzanna-burke-color-background":
           "var(--avatar-user-squarezuzanna-burke-color-background)",
         "teal-300": "var(--teal-300)",
+        "avatar-user-squareamlie-laurent-neutral-background":
+          "var(--avatar-user-squareamlie-laurent-neutral-background)",
+        "avatar-user-squareandi-lane-color-background":
+          "var(--avatar-user-squareandi-lane-color-background)",
+        "avatar-user-squarecandice-wu-color-background":
+          "var(--avatar-user-squarecandice-wu-color-background)",
+        "avatar-user-squaredrew-cano-color-background":
+          "var(--avatar-user-squaredrew-cano-color-background)",
+        "avatar-user-squarekate-morrison-color-background":
+          "var(--avatar-user-squarekate-morrison-color-background)",
+        "avatar-user-squareolivia-rhye-color-background":
+          "var(--avatar-user-squareolivia-rhye-color-background)",
+        "avatar-user-squareorlando-diggs-color-background":
+          "var(--avatar-user-squareorlando-diggs-color-background)",
+        "avatar-user-squarephoenix-baker-color-background":
+          "var(--avatar-user-squarephoenix-baker-color-background)",
+        "teal-950": "var(--teal-950)",
       },
       fontFamily: {
         "display-2xl-bold": "var(--display-2xl-bold-font-family)",
@@ -303,6 +320,8 @@ module.exports = {
         "text-xs-medium": "var(--text-xs-medium-font-family)",
         "text-xs-regular": "var(--text-xs-regular-font-family)",
         "text-xs-semibold": "var(--text-xs-semibold-font-family)",
+        "leading-none-text-sm-font-semibold":
+          "var(--leading-none-text-sm-font-semibold-font-family)",
       },
       boxShadow: {
         "chip-shadow": "var(--chip-shadow)",
@@ -337,6 +356,10 @@ module.exports = {
         "shadows-shadow-xs": "var(--shadows-shadow-xs)",
         "shadows-shadow-xs-skeuomorphic":
           "var(--shadows-shadow-xs-skeuomorphic)",
+        "backdrop-blurs-backdrop-blur-md":
+          "var(--backdrop-blurs-backdrop-blur-md)",
+        "backdrop-blurs-backdrop-blur-sm":
+          "var(--backdrop-blurs-backdrop-blur-sm)",
       },
     },
   },
