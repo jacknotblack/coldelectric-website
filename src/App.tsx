@@ -10,7 +10,8 @@ import { ColdOg } from "./screens/ColdOg";
 import { ColdOgTwo } from "./screens/ColdOgTwo";
 import { MicroGrid } from "./screens/MicroGrid";
 import { GridConnected } from "./routes/GridConnected";
-import { FeaturesSection } from "./routes/FeaturesSection/screens/FeaturesSection"; // Import the new screen
+import { FeaturesSection } from "./routes/FeaturesSection/screens/FeaturesSection";
+import { BigClients } from "./routes/BigClients/screens/BigClients"; // Import the new screen
 
 const router = createBrowserRouter([
   {
@@ -58,8 +59,12 @@ const router = createBrowserRouter([
     element: <GridConnected />,
   },
   {
-    path: "/features", // New route for FeaturesSection
+    path: "/features",
     element: <FeaturesSection />,
+  },
+  {
+    path: "/bigclients", // New route for BigClients
+    element: <BigClients />,
   },
 ]);
 
