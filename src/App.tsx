@@ -12,6 +12,7 @@ import { MicroGrid } from "./screens/MicroGrid";
 import { GridConnected } from "./routes/GridConnected";
 import { FeaturesSection } from "./routes/FeaturesSection/screens/FeaturesSection";
 import { BigClients } from "./routes/BigClients/screens/BigClients"; // Import the new screen
+import { IndustriesWePower } from "./routes/IndustriesWePower/screens/IndustriesWePower";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
   {
     path: "/bigclients", // New route for BigClients
     element: <BigClients />,
+  },
+	{
+    path: "/industries", // New route for BigClients
+    element: <IndustriesWePower />,
   },
 ]);
 
